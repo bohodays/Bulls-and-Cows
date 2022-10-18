@@ -27,15 +27,6 @@ function createGamePage() {
           </button>
           `;
           main.append(gamePage);
-          // <p class="record">1회 : 1볼</p>
-          // <p class="record">2회 : 낫싱</p>
-          // <p class="record">3회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
-          // <p class="record">4회 : 1볼 1스트라이크</p>
 };
 
 
