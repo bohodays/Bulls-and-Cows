@@ -62,8 +62,11 @@ export default function playGame(computerInputNumbers, play) {
   
     checkButton.addEventListener('click', () => {
       const userInputNumbers = getUserInput();
-      printGameResult(play(computerInputNumbers, userInputNumbers));
-      resetScreen();
-    })
+      // by 한별이형
+      if (userInputNumbers) {
+        printGameResult(play(computerInputNumbers, userInputNumbers));
+        resetScreen();
+      }
+    });
   });
 };
